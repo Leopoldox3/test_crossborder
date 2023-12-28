@@ -1,3 +1,4 @@
+import 'package:crossborder/features/countries/presentation/screens/select_country_screen.dart';
 import 'package:crossborder/features/destinations/presentation/screens/other_destinations_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const OtherDestinationsScreen(),
+      home: const SelectCountryScreen(),
     );
   }
 }
